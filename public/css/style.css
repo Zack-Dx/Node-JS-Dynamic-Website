@@ -176,13 +176,13 @@ label {
 }
 
 .speedup:hover {
-  box-shadow: 0 0 25px 0 rgba(33, 39, 221, 0.2);
+  box-shadow: 0 0 25px 0 rgba(153, 156, 239, 0.2);
   cursor: pointer;
   background-image: linear-gradient(-45deg, #f33474 0%, #f55b2a 50%);
 }
 
 .settings:hover {
-  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+  box-shadow: 0 0 25px 0 rgba(159, 162, 230, 0.2);
   cursor: pointer;
   background-image: linear-gradient(-45deg, #49d0da 0%, #210c59 50%);
 }
