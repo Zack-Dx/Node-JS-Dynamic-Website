@@ -261,6 +261,12 @@ footer p {
     font-size: 3rem;
   }
 
+  #hero_img{
+   width: 15rem;
+  }
+#about_img{
+width: 15rem;
+}
   figure {
     margin: 5rem 0;
   }
@@ -280,4 +286,5 @@ footer p {
   .contact-style .sub-heading {
     font-size: 2rem;
   }
+ 
 }
