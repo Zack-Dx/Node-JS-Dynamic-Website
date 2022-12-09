@@ -1,14 +1,14 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 async function connection() {
-  try {
-    await mongoose.connect("mongodb://localhost:27017/zacknode");
-    console.log(`Database Connected..`);
-  } catch (err) {
-    console.log(`Failed to connect the database...`);
-  }
+    try {
+        await mongoose.connect('mongodb://localhost:27017/zacknode');
+        console.log(`Database Connected..`);
+    } catch (err) {
+        console.log(`Failed to connect the database...`);
+    }
 }
 
-connection()
+connection();
 
-module.exports = connection
+module.exports = connection;
