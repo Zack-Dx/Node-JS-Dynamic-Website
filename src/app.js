@@ -1,8 +1,10 @@
 const express = require('express');
+const dotenv = require('dotenv');
+dotenv.config();
 require('./db/conn');
 const User = require('./models/usermessage');
 const app = express();
-const PORT = process.env.PORT || 5100;
+const PORT = process.env.PORT;
 const path = require('path');
 const hbs = require('hbs');
 const { urlencoded } = require('express');
