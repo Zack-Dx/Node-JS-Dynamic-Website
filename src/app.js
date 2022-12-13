@@ -40,7 +40,9 @@ app.post('/contact', async (req, res) => {
         await userData.save();
         res.status(201).render('index');
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(500).json({
+            error: 'Please make sure all fields are filled in correctly.',
+        });
     }
 });
 
