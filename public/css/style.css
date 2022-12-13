@@ -91,12 +91,15 @@ label {
     font-weight: bold;
     color: #000;
 }
-
+.btn {
+    font-size: 2rem !important;
+    margin: 1.7rem;
+}
 .btn-style {
     padding: 12px 25px;
     border: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 2rem !important;
     text-transform: uppercase;
     letter-spacing: 1px;
     border: 2px solid #fff;
@@ -224,7 +227,6 @@ label {
 
 .form-control {
     padding: 2rem 1rem;
-    font-size: 1.7rem;
     font-weight: 600;
 }
 
